@@ -8,7 +8,7 @@ const Home = (props) => {
   return (
     <>
       <div className="background mx-auto">
-      <div className="card">{props.element}</div>
+        <div className="card">{props.element}</div>
         <div className="card">{props.num6}</div>
         <div className="card">{props.num5}</div>
         <div className="card">{props.num4}</div>
@@ -16,6 +16,8 @@ const Home = (props) => {
         <div className="card">{props.num2}</div>
         <div className="card">{props.num}</div>
       </div>
+
+      
     </>
   );
 };
